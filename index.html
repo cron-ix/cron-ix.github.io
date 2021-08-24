@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -10,77 +9,48 @@
     <link rel="canonical" href="https://cron-ix.github.io/" />
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/metismenu/dist/metisMenu.min.css">
-    <link rel="stylesheet" href="metismenu-horizontal.css">
     <link rel="stylesheet" type="text/css" href="https://cron-ix.github.io/nerdfontssymbols/NerdFontsSymbols.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/metismenu"></script>
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light topbar-nav">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><span class="nf nf-fa-github"></span> cron-ix.github.io</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Expand at lg</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 metismenu" id="mainmenu">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle has-arrow" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu 0</a>
-                <ul>
-                  <li><a class="nav-link text-nowrap" href="#">item 0.1</a></li>
-                  <li><a class="nav-link text-nowrap" href="#">item 0.2</a></li>
-                  <li><a class="nav-link text-nowrap" href="#">item 0.3</a></li>
-                  <li><a class="nav-link text-nowrap" href="#">item 0.4</a></li>
-                </ul>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle has-arrow" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu 1</a>
-                <ul>
-                  <li><a class="nav-link text-nowrap" href="#">item 1.1</a></li>
-                  <li><a class="nav-link text-nowrap" href="#">item 1.2</a></li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle has-arrow" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu 1.3</a>
-                    <ul>
-                      <li><a class="nav-link text-nowrap" href="#">item 1.3.1</a></li>
-                      <li><a class="nav-link text-nowrap" href="#">item 1.3.2</a></li>
-                      <li><a class="nav-link text-nowrap" href="#">item 1.3.3</a></li>
-                      <li><a class="nav-link text-nowrap" href="#">item 1.3.4</a></li>
-                    </ul>
-                  </li>
-                  <li><a class="nav-link text-nowrap" href="#">item 1.4</a></li>
-                  <li>
-                    <a class="nav-link dropdown-toggle has-arrow" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu 1.5</a>
-                    <ul>
-                      <li><a class="nav-link text-nowrap" href="#">item 1.5.1</a></li>
-                      <li><a class="nav-link text-nowrap" href="#">item 1.5.2</a></li>
-                      <li><a class="nav-link text-nowrap" href="#">item 1.5.3</a></li>
-                      <li><a class="nav-link text-nowrap" href="#">item 1.5.4</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle has-arrow" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu 2</a>
-                <ul>
-                  <li><a class="nav-link text-nowrap" href="#">item 2.1</a></li>
-                  <li><a class="nav-link text-nowrap" href="#">item 2.2</a></li>
-                  <li><a class="nav-link text-nowrap" href="#">item 2.3</a></li>
-                  <li><a class="nav-link text-nowrap" href="#">item 2.4</a></li>
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
             </ul>
+            <form>
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
           </div>
         </div>
       </nav>
+    
     </header>
-    <script src="metismenu-horizontal.js" charset="utf-8"></script>
-
     <div class="container">
       <p>Repos:</p>
       <ul>
