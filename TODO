@@ -1,0 +1,4 @@
+enable submenu
+
+- since bootstrap3: Sub-menu - The support for sub-menu was disabled in latest version of bootstrap. The option can be re-enabled by including a small CSS.
+- workaround: https://stackoverflow.com/questions/18023493/bootstrap-dropdown-sub-menu-missing
