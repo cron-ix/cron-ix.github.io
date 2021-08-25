@@ -1,10 +1,17 @@
+/* get space on top for navbar */
+body {
+  padding-top: 4.5rem;
+}
+
+/* no border/shadow at the navbar toggler element on focus (per default on bootstrap) */
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
     box-shadow: none;
   }
 
-.accordion {
+/* spacing after the accordion element */
+  .accordion {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
