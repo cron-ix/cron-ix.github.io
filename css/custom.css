@@ -1,6 +1,6 @@
 /* get space on top for navbar */
 body {
-  padding-top: 4.5rem;
+  /* padding-top: 4.5rem; */
 }
 
 /* no border/shadow at the navbar toggler element on focus (per default on bootstrap) */
