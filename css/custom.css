@@ -1,9 +1,7 @@
 /* get space on top for navbar */
-/*
-body {
+body.navbar-sticky-top {
   padding-top: 4.5rem;
 }
-*/
 
 /* no border/shadow at the navbar toggler element on focus (per default on bootstrap) */
 .navbar-toggler:focus {
